@@ -1,0 +1,24 @@
+package com.alonzosol;
+
+/**
+ * Created by Alonzo on 1/28/2016.
+ */
+
+//derived class for Sides
+public class Side extends Additional {
+    public Side(String name, double price) {
+        super(name, price);
+    }
+}
+//fries additional w/ price
+class Fries extends Side {
+    public Fries() {
+        super("Fries", 2);
+    }
+}
+//soda additional w/ price
+class Soda extends Side {
+    public Soda() {
+        super("Soda", 1);
+    }
+}
