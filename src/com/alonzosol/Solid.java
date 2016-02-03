@@ -1,9 +1,8 @@
 package com.alonzosol;
 
 /**
- * Created by Alonzo on 1/28/2016.
+ * Created by Alonzo on 2/1/2016.
  */
-//Derived class for Solids, all Solids cost $0.50
 public class Solid extends Additional {
     public Solid(String name) {
         super(name, 0.5);

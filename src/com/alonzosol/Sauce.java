@@ -1,9 +1,8 @@
 package com.alonzosol;
 
 /**
- * Created by Alonzo on 1/28/2016.
+ * Created by Alonzo on 2/1/2016.
  */
-//Derived class for Sauce, all Sauces are $0.25
 public class Sauce extends Additional {
     public Sauce(String name) {
         super(name, .25);

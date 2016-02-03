@@ -1,10 +1,8 @@
 package com.alonzosol;
 
 /**
- * Created by Alonzo on 1/28/2016.
+ * Created by Alonzo on 2/1/2016.
  */
-
-//derived class for Sides
 public class Side extends Additional {
     public Side(String name, double price) {
         super(name, price);

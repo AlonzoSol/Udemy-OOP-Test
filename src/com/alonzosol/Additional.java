@@ -1,9 +1,8 @@
 package com.alonzosol;
 
 /**
- * Created by Alonzo on 1/28/2016.
+ * Created by Alonzo on 2/1/2016.
  */
-
 //Base class for additionals with name and price field/constructor
 public class Additional {
     private String name;
